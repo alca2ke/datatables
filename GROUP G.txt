@@ -1,0 +1,32 @@
+
+1.      Create a table EMPLOYEE with the following schema: [5 Marks]
+   //create table
+   CREATE TABLE EMPLOYEE
+   (
+    EmpNo int,
+    EmpName varchar(255),
+    EmpAddress varchar(255),
+    EmpPh varchar(255),
+    DeptNo varchar(255),
+    DeptName  varchar(255),
+    JobId char(255),
+    Salary varchar(255)
+   );
+
+ 2.      Add a new column; HIREDATE to the existing relation. [3 Marks]
+      (
+       ALTER TABLE employees 
+       ADD Hiredate varchar(255)
+       );
+
+
+ 3.      Change the datatype of JOB_ID from char to varchar2. [2 Marks]
+       (
+       ALTER TABLE EMPLOYEE 
+       ALTER COLUMN JobId varchar(255);
+       );
+
+
+
+
+
